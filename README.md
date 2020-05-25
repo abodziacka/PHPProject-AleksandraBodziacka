@@ -54,8 +54,8 @@ Wszystkie te funkcjonalności przedstawione będą za pomocą wzorca architekton
 
 #
 ## Diagram UML
-![diagram_uml](./img/uml.png)
-![diagram2_uml](./img/uml2.png)
+![diagram_uml](./uml.png)
+![diagram2_uml](./uml2.png)
 
 ## Kontakt
 Created by [AleksandraBodziacka](olabodziacka.op.pl) & [MartaBrzozowska](marta_brzozowska@icloud.com)- feel free to contact us!
