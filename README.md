@@ -46,7 +46,9 @@ Funkcjonalności serwisu podzielone są na 2 grupy: funkcjonalności użytkownik
 ##### Model MVC
 Wszystkie te funkcjonalności przedstawione będą za pomocą wzorca architektonicznego MVC (model-view-controller).
 > ***Model*** -  odpowiedzialny jest za komputerową reprezentację problemu zawiera funkcje, które są dostępne w danym oprogramowaniu (w nim zadeklarujemy wszystkie zmienne oraz obiekty potrzebne do wykoanania aplikacji).
+#
 ***Widok*** - jest odpowiedzialny za prezentację danych w obrębie graficznego interfejsu użytkownika (dzięki niemu klient będzie miał możliwość wyborów poszczególnych opcji).
+#
 ***Kontroler*** - odbiera i przetwarza dane wejściowe użytkownika (jest łącznikiem mięzy widokiem a modelem, czyli dzięki niemu program będzie wiedział jakie informacje wyciągnąć z modelu po akcji użytkownika).
 
 ## Diagram UML
