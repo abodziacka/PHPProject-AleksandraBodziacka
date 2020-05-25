@@ -1,7 +1,6 @@
 #### Bodziacka Aleksandra
 #### Brzozowska Marta
 #
-#
 # Web_Library
 > Program zostanie stworzony w celu elektronicznego wypożyczenia książek z biblioteki.
 Do oprogramowania mają dostęp zarówno klienci biblioteki, którzy mogą złożyć swoje zamówienie, jak i jej pracownicy, którzy mają możliwość edycji bazy danych.
@@ -11,6 +10,7 @@ Do oprogramowania mają dostęp zarówno klienci biblioteki, którzy mogą zło�
 * [Użytkownicy](#uzytkownicy)
 * [Techologie](#technologie)
 * [Funkcjonalności](#funkcjonalności)
+* [Model MVC](#model-MVC)
 * [Diagram URL](#diagram-uml)
 * [Kontakt](#kontakt)
 
@@ -43,7 +43,7 @@ Funkcjonalności serwisu podzielone są na 2 grupy: funkcjonalności użytkownik
 * Modyfikowanie dostępności książek
 * Zaznaczanie wypożyczenia i oddania książki przez klienta
 
-##### Model MVC
+## Model MVC
 Wszystkie te funkcjonalności przedstawione będą za pomocą wzorca architektonicznego MVC (model-view-controller).
 #
 ***Model*** -  odpowiedzialny jest za komputerową reprezentację problemu zawiera funkcje, które są dostępne w danym oprogramowaniu (w nim zadeklarujemy wszystkie zmienne oraz obiekty potrzebne do wykoanania aplikacji).
@@ -52,6 +52,7 @@ Wszystkie te funkcjonalności przedstawione będą za pomocą wzorca architekton
 #
 ***Kontroler*** - odbiera i przetwarza dane wejściowe użytkownika (jest łącznikiem mięzy widokiem a modelem, czyli dzięki niemu program będzie wiedział jakie informacje wyciągnąć z modelu po akcji użytkownika).
 
+#
 ## Diagram UML
 ![diagram_uml](./img/uml.png)
 ![diagram2_uml](./img/uml2.png)
