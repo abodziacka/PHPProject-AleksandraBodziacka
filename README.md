@@ -9,7 +9,7 @@ Do oprogramowania mają dostęp zarówno klienci biblioteki, którzy mogą zło�
 ## Spis treści
 * [Cele systemu](#cele-sytemu)
 * [Użytkownicy](#uzytkownicy)
-* [Techologie](#technologie)
+* [Technologie](#technologie)
 * [Funkcjonalności](#funkcjonalności)
 * [Diagram UML](#diagram-uml)
 * [Kontakt](#kontakt)
@@ -20,8 +20,8 @@ Dodatkowo system jest pomocą dla bibliotekarzy, którzy w sprawny sposób mogą
 
 ## Użytkownicy
 Użytkownicy aplikacji dzielą się na 2 grupy:
-* ***Klienci*** - osoby zainteresowane wypożyczeniem (zarezerwowaniem) danej książki. Mogą przeglądać dostępne ksiązki, czytać opisy książek, jak i wypożyczać.
-* ***Bibliotekarze*** - mogą edytować bazę książek (dodawać, usuwać, zaznaczać dostępność) oraz mają wgląd do kont wypożyczających (zaznaczają wypożyczenie-gdy osoba przychodzi do bliblioteki po książkę, jak i oddanie- gdy ją zwraca).
+* ***Klienci*** - osoby zainteresowane wypożyczeniem (zarezerwowaniem) danej książki mogą przeglądać dostępne książki, czytać opisy książek, jak i wypożyczać.
+* ***Bibliotekarze*** - mogą edytować bazę książek (dodawać, usuwać, zaznaczać dostępność) oraz mają wgląd do kont wypożyczających (zaznaczają wypożyczenie - gdy osoba przychodzi do bliblioteki po książkę, jak i oddanie- gdy ją zwraca).
 
 ## Technologie
 * Framework PHP MVC Symfony
@@ -55,7 +55,7 @@ Wszystkie te funkcjonalności przedstawione będą za pomocą wzorca architekton
     * Czytanie opisów dot. danej książki
     * Przeglądanie kategorii
 
->***Kontroler*** - odbiera i przetwarza dane wejściowe użytkownika (jest łącznikiem mięzy widokiem a modelem, czyli dzięki     niemu program będzie wiedział jakie informacje wyciągnąć z modelu po akcji użytkownika).
+>***Kontroler*** - odbiera i przetwarza dane wejściowe użytkownika (jest łącznikiem między widokiem a modelem, czyli dzięki     niemu program będzie wiedział jakie informacje wyciągnąć z modelu po akcji użytkownika).
     * Wypożyczenie (zarezerwowanie) danej książki
     * *Usuwanie książki z bazy danych
     * Dodawanie książki do bazy danych
