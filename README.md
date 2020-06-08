@@ -57,7 +57,7 @@ Wszystkie te funkcjonalności przedstawione będą za pomocą wzorca architekton
 
 >***Kontroler*** - odbiera i przetwarza dane wejściowe użytkownika (jest łącznikiem między widokiem a modelem, czyli dzięki     niemu program będzie wiedział jakie informacje wyciągnąć z modelu po akcji użytkownika).
 * Wypożyczenie (zarezerwowanie) danej książki
-* *Usuwanie książki z bazy danych
+* Usuwanie książki z bazy danych
 * Dodawanie książki do bazy danych
 * Usuwanie autora z bazy danych
 * Dodawanie autora do bazy danych
@@ -65,8 +65,8 @@ Wszystkie te funkcjonalności przedstawione będą za pomocą wzorca architekton
 * Zaznaczanie wypożyczenia i oddania książki przez klienta
 
 ## Diagram UML
-![diagram_uml](./img/uml.png)
-![diagram2_uml](./img/uml2.png)
+![diagram_uml](./uml.png)
+![diagram2_uml](./uml2.png)
 
 ## Kontakt
 Created by [AleksandraBodziacka](olabodziacka.op.pl) & [MartaBrzozowska](marta_brzozowska@icloud.com)- feel free to contact us!
