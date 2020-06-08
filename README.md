@@ -1,61 +1,69 @@
 #### Bodziacka Aleksandra
 #### Brzozowska Marta
 #
+#
 # Web_Library
-> Program zostanie stworzony w celu elektronicznego wypoÅ¼yczenia ksiÄ…Å¼ek z biblioteki.
-Do oprogramowania majÄ… dostÄ™p zarÃ³wno klienci biblioteki, ktÃ³rzy mogÄ… zÅ‚oÅ¼yÄ‡ swoje zamÃ³wienie, jak i jej pracownicy, ktÃ³rzy majÄ… moÅ¼liwoÅ›Ä‡ edycji bazy danych.
+> Program zostanie stworzony w celu elektronicznego wypo¿yczenia ksi¹¿ek z biblioteki.
+Do oprogramowania maj¹ dostêp zarówno klienci biblioteki, którzy mog¹ z³o¿yæ swoje zamówienie, jak i jej pracownicy, którzy maj¹ mo¿liwoœæ edycji bazy danych.
 
-## Spis treÅ›ci
+## Spis treœci
 * [Cele systemu](#cele-sytemu)
-* [UÅ¼ytkownicy](#uzytkownicy)
+* [U¿ytkownicy](#uzytkownicy)
 * [Techologie](#technologie)
-* [FunkcjonalnoÅ›ci](#funkcjonalnoÅ›ci)
-* [Model MVC](#model-MVC)
-* [Diagram URL](#diagram-uml)
+* [Funkcjonalnoœci](#funkcjonalnoœci)
+* [Diagram UML](#diagram-uml)
 * [Kontakt](#kontakt)
 
 ## Cele systemu
-Przeznaczenie systemu: moÅ¼liwoÅ›Ä‡ internetowego wypoÅ¼yczenia ksiÄ…Å¼ek w stacjonarnej bibliotece. Aplikacja daje gwarancje uÅ¼ytkownikowi na wczeÅ›niejsze zarezerwowanie ksiÄ…Å¼ek przed osobistÄ… wizytÄ….
-Dodatkowo system jest pomocÄ… dla bibliotekarzy, ktÃ³rzy w sprawny sposÃ³b mogÄ… edytowaÄ‡ bazÄ™ ksiÄ…Å¼ek oraz na odlegÅ‚oÅ›Ä‡ informowaÄ‡ klientÃ³w o dostÄ™pnoÅ›ci poszczegÃ³lnych ksiÄ…Å¼ek.
+Przeznaczenie systemu: mo¿liwoœæ internetowego wypo¿yczenia ksi¹¿ek w stacjonarnej bibliotece. Aplikacja daje gwarancje u¿ytkownikowi na wczeœniejsze zarezerwowanie ksi¹¿ek przed osobist¹ wizyt¹.
+Dodatkowo system jest pomoc¹ dla bibliotekarzy, którzy w sprawny sposób mog¹ edytowaæ bazê ksi¹¿ek oraz na odleg³oœæ informowaæ klientów o dostêpnoœci poszczególnych ksi¹¿ek.
 
-## UÅ¼ytkownicy
-UÅ¼ytkownicy aplikacji dzielÄ… siÄ™ na 2 grupy:
-* ***Klienci*** - osoby zainteresowane wypoÅ¼yczeniem (zarezerwowaniem) danej ksiÄ…Å¼ki. MogÄ… przeglÄ…daÄ‡ dostÄ™pne ksiÄ…zki, czytaÄ‡ opisy ksiÄ…Å¼ek, jak i wypoÅ¼yczaÄ‡.
-* ***Bibliotekarze*** - mogÄ… edytowaÄ‡ bazÄ™ ksiÄ…Å¼ek (dodawaÄ‡, usuwaÄ‡, zaznaczaÄ‡ dostÄ™pnoÅ›Ä‡) oraz majÄ… wglÄ…d do kont wypoÅ¼yczajÄ…cych (zaznaczajÄ… wypoÅ¼yczenie-gdy osoba przychodzi do bliblioteki po ksiÄ…Å¼kÄ™, jak i oddanie- gdy jÄ… zwraca).
+## U¿ytkownicy
+U¿ytkownicy aplikacji dziel¹ siê na 2 grupy:
+* ***Klienci*** - osoby zainteresowane wypo¿yczeniem (zarezerwowaniem) danej ksi¹¿ki. Mog¹ przegl¹daæ dostêpne ksi¹zki, czytaæ opisy ksi¹¿ek, jak i wypo¿yczaæ.
+* ***Bibliotekarze*** - mog¹ edytowaæ bazê ksi¹¿ek (dodawaæ, usuwaæ, zaznaczaæ dostêpnoœæ) oraz maj¹ wgl¹d do kont wypo¿yczaj¹cych (zaznaczaj¹ wypo¿yczenie-gdy osoba przychodzi do bliblioteki po ksi¹¿kê, jak i oddanie- gdy j¹ zwraca).
 
 ## Technologie
 * Framework PHP MVC Symfony
 
-## FunkcjonalnoÅ›ci
-FunkcjonalnoÅ›ci serwisu podzielone sÄ… na 2 grupy: funkcjonalnoÅ›ci uÅ¼ytkownika oraz admina (bibliotekarza).
-##### FunkcjonalnoÅ›ci uÅ¼ytkownika
-* PrzeglÄ…danie dostÄ™pnoÅ›ci ksiÄ…Å¼ek
-* PrzeglÄ…danie autorÃ³w 
-* Czytanie opisÃ³w dot. danej ksiÄ…Å¼ki
-* PrzeglÄ…danie kategorii
-* WypoÅ¼yczenie (zarezerwowanie) danej ksiÄ…Å¼ki
+## Funkcjonalnoœci
+Funkcjonalnoœci serwisu podzielone s¹ na 2 grupy: funkcjonalnoœci u¿ytkownika oraz admina (bibliotekarza).
+##### Funkcjonalnoœci u¿ytkownika
+* Przegl¹danie dostêpnoœci ksi¹¿ek
+* Przegl¹danie autorów 
+* Czytanie opisów dot. danej ksi¹¿ki
+* Przegl¹danie kategorii
+* Wypo¿yczenie (zarezerwowanie) danej ksi¹¿ki
 
-##### FunkcjonalnoÅ›ci admina
-* Usuwanie ksiÄ…Å¼ki z bazy danych
-* Dodawanie ksiÄ…Å¼ki do bazy danych
+##### Funkcjonalnoœci admina
+* Usuwanie ksi¹¿ki z bazy danych
+* Dodawanie ksi¹¿ki do bazy danych
 * Usuwanie autora z bazy danych
 * Dodawanie autora do bazy danych
-* Modyfikowanie dostÄ™pnoÅ›ci ksiÄ…Å¼ek
-* Zaznaczanie wypoÅ¼yczenia i oddania ksiÄ…Å¼ki przez klienta
+* Modyfikowanie dostêpnoœci ksi¹¿ek
+* Zaznaczanie wypo¿yczenia i oddania ksi¹¿ki przez klienta
 
-## Model MVC
-Wszystkie te funkcjonalnoÅ›ci przedstawione bÄ™dÄ… za pomocÄ… wzorca architektonicznego MVC (model-view-controller).
-#
-***Model*** -  odpowiedzialny jest za komputerowÄ… reprezentacjÄ™ problemu zawiera funkcje, ktÃ³re sÄ… dostÄ™pne w danym oprogramowaniu (w nim zadeklarujemy wszystkie zmienne oraz obiekty potrzebne do wykoanania aplikacji).
-#
-***Widok*** - jest odpowiedzialny za prezentacjÄ™ danych w obrÄ™bie graficznego interfejsu uÅ¼ytkownika (dziÄ™ki niemu klient bÄ™dzie miaÅ‚ moÅ¼liwoÅ›Ä‡ wyborÃ³w poszczegÃ³lnych opcji).
-#
-***Kontroler*** - odbiera i przetwarza dane wejÅ›ciowe uÅ¼ytkownika (jest Å‚Ä…cznikiem miÄ™zy widokiem a modelem, czyli dziÄ™ki niemu program bÄ™dzie wiedziaÅ‚ jakie informacje wyciÄ…gnÄ…Ä‡ z modelu po akcji uÅ¼ytkownika).
+##### Model MVC
+Wszystkie te funkcjonalnoœci przedstawione bêd¹ za pomoc¹ wzorca architektonicznego MVC (model-view-controller).
+> ***Model*** -  odpowiedzialny jest za komputerow¹ reprezentacjê problemu zawiera funkcje, które s¹ dostêpne w danym oprogramowaniu (w nim zadeklarujemy wszystkie zmienne oraz obiekty potrzebne do wykoanania aplikacji).
 
-#
+>***Widok*** - jest odpowiedzialny za prezentacjê danych w obrêbie graficznego interfejsu u¿ytkownika (dziêki niemu klient     bêdzie mia³ mo¿liwoœæ wyborów poszczególnych opcji).
+    * Przegl¹danie dostêpnoœci ksi¹¿ek
+    * Przegl¹danie autorów 
+    * Czytanie opisów dot. danej ksi¹¿ki
+    * Przegl¹danie kategorii
+
+>***Kontroler*** - odbiera i przetwarza dane wejœciowe u¿ytkownika (jest ³¹cznikiem miêzy widokiem a modelem, czyli dziêki     niemu program bêdzie wiedzia³ jakie informacje wyci¹gn¹æ z modelu po akcji u¿ytkownika).
+    * Wypo¿yczenie (zarezerwowanie) danej ksi¹¿ki
+    * *Usuwanie ksi¹¿ki z bazy danych
+    * Dodawanie ksi¹¿ki do bazy danych
+    * Usuwanie autora z bazy danych
+    * Dodawanie autora do bazy danych
+    * Modyfikowanie dostêpnoœci ksi¹¿ek
+    * Zaznaczanie wypo¿yczenia i oddania ksi¹¿ki przez klienta
 ## Diagram UML
-![diagram_uml](./uml.png)
-![diagram2_uml](./uml2.png)
+![diagram_uml](./img/uml.png)
+![diagram2_uml](./img/uml2.png)
 
 ## Kontakt
 Created by [AleksandraBodziacka](olabodziacka.op.pl) & [MartaBrzozowska](marta_brzozowska@icloud.com)- feel free to contact us!
