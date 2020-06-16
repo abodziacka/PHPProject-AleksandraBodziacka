@@ -46,23 +46,22 @@ Funkcjonalności serwisu podzielone są na 2 grupy: funkcjonalności użytkownik
 ##### Model MVC
 Wszystkie te funkcjonalności przedstawione będą za pomocą wzorca architektonicznego MVC (model-view-controller).
 > ***Model*** -  odpowiedzialny jest za komputerową reprezentację problemu zawiera funkcje, które są dostępne w danym oprogramowaniu (w nim zadeklarujemy wszystkie zmienne oraz obiekty potrzebne do wykonania aplikacji).
-* Deklarowanie zmiennych
-* Budowa bazy danych
+* Funkcja sprawdzająca czy daną książkę można zarezerwować
+* Zapisanie rezerwacji w bazie danych
+* Zwrócenie do widoku informacji o efekcie czynności użytkownika
+* Funkcja usuwająca/dodająca książkę(autora) do bazy danych
+* Funkcja umożliwiająca modyfikację dostępności książki
     
 >***Widok*** - jest odpowiedzialny za prezentację danych w obrębie graficznego interfejsu użytkownika (dzięki niemu klient     będzie miał możliwość wyborów poszczególnych opcji).
-* Przeglądanie dostępności książek
-* Przeglądanie autorów 
-* Czytanie opisów dot. danej książki
-* Przeglądanie kategorii
+* Możliwość nawigowania między odnośnikami (pasek nawigacji)
+* Wyświetlanie książek, autorów, kategorii, opisów (tabeli z bazy danych)
+* Wyświetlanie komunikatu o powodzeniu (lub też niepowodzeniu) rezerwacji książki
+* Wyświetlanie danych do kontaktu
 
 >***Kontroler*** - odbiera i przetwarza dane wejściowe użytkownika (jest łącznikiem między widokiem a modelem, czyli dzięki     niemu program będzie wiedział jakie informacje wyciągnąć z modelu po akcji użytkownika).
-* Wypożyczenie (zarezerwowanie) danej książki
-* Usuwanie książki z bazy danych
-* Dodawanie książki do bazy danych
-* Usuwanie autora z bazy danych
-* Dodawanie autora do bazy danych
-* Modyfikowanie dostępności książek
-* Zaznaczanie wypożyczenia i oddania książki przez klienta
+* Pobieranie informacji zawartych w modelu i przekazywanie ich do widoku
+* Zwracanie widoków
+* Wykrywanie napotkanych (ewentualnych) błędów
 
 ## Diagram UML
 ![diagram_uml](./uml.png)
