@@ -1,6 +1,6 @@
 #### Bodziacka Aleksandra
 # Web_Library
-> Program zostanie stworzony w celu elektronicznego wypożyczenia książek z biblioteki.
+Program zostanie stworzony w celu elektronicznego wypożyczenia książek z biblioteki.
 Do oprogramowania mają dostęp zarówno klienci biblioteki, którzy mogą złożyć swoje zamówienie, jak i jej pracownicy, którzy mają możliwość edycji bazy danych.
 
 ## Spis treści
