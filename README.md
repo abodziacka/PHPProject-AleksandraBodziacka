@@ -1,7 +1,8 @@
 #### Bodziacka Aleksandra
 # Web_Library
-Program zostanie stworzony w celu elektronicznego wypożyczenia książek z biblioteki.
-Do oprogramowania mają dostęp zarówno klienci biblioteki, którzy mogą złożyć swoje zamówienie, jak i jej pracownicy, którzy mają możliwość edycji bazy danych.
+Program został stworzony w celu elektronicznego wypożyczenia książek z biblioteki.
+Do oprogramowania mają dostęp zarówno klienci biblioteki, którzy mogą wypożyczyć daną książkę, jak i jej pracownicy, którzy mają możliwość zaznaczenia jej zwrócenia.
+Projekt został przygotowany na studia na fakultet "Serwisy internetowe PHP MVC Symfony".
 
 ## Spis treści
 * [Cele systemu](#cele-sytemu)
@@ -18,7 +19,7 @@ Dodatkowo system jest pomocą dla bibliotekarzy, którzy w sprawny sposób mogą
 ## Użytkownicy
 Użytkownicy aplikacji dzielą się na 2 grupy:
 * ***Klienci*** - osoby zainteresowane wypożyczeniem (zarezerwowaniem) danej książki mogą przeglądać dostępne książki, czytać opisy książek, jak i wypożyczać.
-* ***Bibliotekarze*** - mogą edytować bazę książek (dodawać, usuwać, zaznaczać dostępność) oraz mają wgląd do kont wypożyczających (zaznaczają wypożyczenie - gdy osoba przychodzi do bliblioteki po książkę, jak i oddanie- gdy ją zwraca).
+* ***Bibliotekarze*** - mogą edytować bazę książek (dodawać, usuwać, zaznaczać dostępność) oraz mają wgląd do kont wypożyczających (zaznaczają oddanie- gdy ją zwraca).
 
 ## Technologie
 * Framework PHP MVC Symfony
@@ -28,7 +29,6 @@ Funkcjonalności serwisu podzielone są na 2 grupy: funkcjonalności użytkownik
 ##### Funkcjonalności użytkownika
 * Przeglądanie dostępności książek
 * Przeglądanie autorów 
-* Czytanie opisów dot. danej książki
 * Przeglądanie kategorii
 * Wypożyczenie (zarezerwowanie) danej książki
 
@@ -38,7 +38,7 @@ Funkcjonalności serwisu podzielone są na 2 grupy: funkcjonalności użytkownik
 * Usuwanie autora z bazy danych
 * Dodawanie autora do bazy danych
 * Modyfikowanie dostępności książek
-* Zaznaczanie wypożyczenia i oddania książki przez klienta
+* Zaznaczanie oddania książki przez klienta
 
 ##### Model MVC
 Wszystkie te funkcjonalności przedstawione będą za pomocą wzorca architektonicznego MVC (model-view-controller).
@@ -51,7 +51,7 @@ Wszystkie te funkcjonalności przedstawione będą za pomocą wzorca architekton
     
 >***Widok*** - jest odpowiedzialny za prezentację danych w obrębie graficznego interfejsu użytkownika (dzięki niemu klient     będzie miał możliwość wyborów poszczególnych opcji).
 * Możliwość nawigowania między odnośnikami (pasek nawigacji)
-* Wyświetlanie książek, autorów, kategorii, opisów (tabeli z bazy danych)
+* Wyświetlanie książek, autorów, kategorii (tabeli z bazy danych)
 * Wyświetlanie komunikatu o powodzeniu (lub też niepowodzeniu) rezerwacji książki
 * Wyświetlanie danych do kontaktu
 
