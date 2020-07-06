@@ -68,4 +68,4 @@ Wszystkie te funkcjonalności przedstawione będą za pomocą wzorca architekton
 ![diagram2_uml](./uml2.png)
 
 ## Kontakt
-Created by [AleksandraBodziacka](olabodziacka.op.pl) & [MartaBrzozowska](marta_brzozowska@icloud.com)- feel free to contact us!
+Created by [AleksandraBodziacka](olabodziacka.op.pl) - feel free to contact me!
